@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Dental Dr. César | Odontología de Excelencia</title>
+  <meta name="description"
+    content="Clínica Dental Dr. César - Servicios dentales premium: ortodoncia, implantes, blanqueamiento, endodoncia y más. Agenda tu cita hoy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2" />
+          <path d="M14 20C14 16 16 12 20 12C24 12 26 16 26 20C26 24 24 28 20 28C16 28 14 24 14 20Z"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <path d="M20 16V20L22 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        <div class="logo-text">
+          <span class="logo-main">Clínica Dental</span>
+          <span class="logo-sub">Dr. César</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#resultados" class="nav-link">Resultados</a></li>
+        <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+        <li><a href="#proceso" class="nav-link">Proceso</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://wa.me/5215551234567" target="_blank" class="btn-whatsapp-nav">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.134 1.585 5.94L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          <span>WhatsApp</span>
+        </a>
+        <a href="#contacto" class="btn-primary">Agendar Cita</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <img src="images/hero-bg.jpg" alt="Consultorio dental moderno">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge" data-animate="fade-up">
+        <span class="badge-dot"></span>
+        <span>Atención dental de excelencia</span>
+      </div>
+      <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+        Tu sonrisa en las <br><span class="text-accent">mejores manos</span>
+      </h1>
+      <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+        En Clínica Dental Dr. César combinamos tecnología de vanguardia con un trato humano excepcional.
+        Recupera la confianza en tu sonrisa con tratamientos personalizados y resultados duraderos.
+      </p>
+      <div class="hero-buttons" data-animate="fade-up" data-delay="300">
+        <a href="#contacto" class="btn-primary btn-lg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+            <line x1="16" y1="2" x2="16" y2="6" />
+            <line x1="8" y1="2" x2="8" y2="6" />
+            <line x1="3" y1="10" x2="21" y2="10" />
+          </svg>
+          Agendar Cita
+        </a>
+        <a href="#servicios" class="btn-outline btn-lg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <circle cx="12" cy="12" r="10" />
+            <polygon points="10 8 16 12 10 16 10 8" />
+          </svg>
+          Conocer Servicios
+        </a>
+        <a href="https://wa.me/5215551234567" target="_blank" class="btn-whatsapp-outline btn-lg">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.134 1.585 5.94L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          WhatsApp
+        </a>
+      </div>
+      <div class="hero-stats" data-animate="fade-up" data-delay="400">
+        <div class="stat-item">
+          <span class="stat-number" data-count="15">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="5000">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Pacientes satisfechos</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="98">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Recomiendan nuestros servicios</span>
+        </div>
+      </div>
+    </div>
+    <div class="floating-elements">
+      <div class="float-circle float-1"></div>
+      <div class="float-circle float-2"></div>
+      <div class="float-circle float-3"></div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>Desplaza para descubrir</span>
+    </div>
+  </section>
+
+  <!-- Welcome / About Section -->
+  <section class="section section-welcome" id="nosotros">
+    <div class="container">
+      <div class="welcome-grid">
+        <div class="welcome-images" data-animate="fade-right">
+          <div class="welcome-image-main">
+            <img src="images/patient-smile.jpg" alt="Paciente feliz con sonrisa perfecta">
+            <div class="experience-card">
+              <span class="exp-number">15+</span>
+              <span class="exp-text">Años de<br>experiencia</span>
+            </div>
+          </div>
+          <div class="welcome-image-secondary">
+            <img src="images/technology.jpg" alt="Tecnología dental avanzada">
+          </div>
+        </div>
+        <div class="welcome-content" data-animate="fade-left">
+          <span class="section-tag">Bienvenidos</span>
+          <h2 class="section-title">Clínica Dental <span class="text-accent">Dr. César</span></h2>
+          <p class="welcome-text">
+            Somos una clínica dental comprometida con tu salud bucal y tu bienestar. Desde hace más de 15 años,
+            el Dr. César y su equipo de especialistas han transformado miles de sonrisas con tratamientos
+            de alta calidad, tecnología de punta y un enfoque humano que te hará sentir como en casa.
+          </p>
+          <p class="welcome-text">
+            Nuestra filosofía es simple: cada paciente merece una atención personalizada, resultados excepcionales
+            y una experiencia dental libre de estrés. Por eso invertimos continuamente en formación, tecnología
+            y en crear un ambiente cálido donde tu tranquilidad es prioridad.
+          </p>
+          <div class="welcome-features">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                  <path d="M2 17l10 5 10-5" />
+                  <path d="M2 12l10 5 10-5" />
+                </svg>
+              </div>
+              <span>Tecnología de última generación</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                  <polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+              </div>
+              <span>Tratamientos 100% garantizados</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                </svg>
+              </div>
+              <span>Atención con calidez humana</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <span>Horarios flexibles</span>
+            </div>
+          </div>
+          <a href="#contacto" class="btn-primary">Conoce más sobre nosotros</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section section-services" id="servicios">
+    <div class="section-bg-decoration"></div>
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Nuestros Servicios</span>
+        <h2 class="section-title">Soluciones dentales <span class="text-accent">completas</span></h2>
+        <p class="section-subtitle">Ofrecemos una amplia gama de tratamientos dentales de alta calidad, diseñados para
+          cuidar tu salud bucal y mejorar tu sonrisa.</p>
+      </div>
+
+      <div class="services-filter" data-animate="fade-up" data-delay="100">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="estetica">Estética Dental</button>
+        <button class="filter-btn" data-filter="prevencion">Prevención</button>
+        <button class="filter-btn" data-filter="restauracion">Restauración</button>
+        <button class="filter-btn" data-filter="urgencias">Urgencias</button>
+      </div>
+
+      <div class="services-grid" id="servicesGrid">
+        <div class="service-card" data-category="prevencion" data-animate="fade-up" data-delay="0">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <path d="M12 2C7.5 2 4 5.5 4 10c0 2.5 1 4.5 2.5 6L12 22l5.5-6c1.5-1.5 2.5-3.5 2.5-6 0-4.5-3.5-8-8-8z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          </div>
+          <h3 class="service-title">Limpieza Dental</h3>
+          <p class="service-desc">Eliminación de placa bacteriana, tártaro y manchas para mantener tus dientes sanos y
+            tu aliento fresco. Recomendada cada 6 meses.</p>
+          <a href="#contacto" class="service-link">Agendar cita →</a>
+        </div>
+
+        <div class="service-card" data-category="estetica" data-animate="fade-up" data-delay="50">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" />
+              <path d="M8 12s1.5 2 4 2 4-2 4-2" />
+              <line x1="9" y1="9" x2="9.01" y2="9" />
+              <line x1="15" y1="9" x2="15.01" y2="9" />
+            </svg>
+          </div>
+          <h3 class="service-title">Ortodoncia</h3>
+          <p class="service-desc">Alineación dental con brackets tradicionales, estéticos o alineadores invisibles.
+            Corrige la mordida y mejora la estética de tu sonrisa.</p>
+          <a href="#contacto" class="service-link">Agendar cita →</a>
+        </div>
+
+        <div class="service-card" data-category="estetica" data-animate="fade-up" data-delay="100">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+              <line x1="9" y1="9" x2="9.01" y2="9" />
+              <line x1="15" y1="9" x2="15.01" y2="9" />
+            </svg>
+          </div>
+          <h3 class="service-title">Blanqueamiento Dental</h3>
+          <p class="service-desc">Recupera el brillo natural de tus dientes con nuestros tratamientos de blanqueamiento
+            seguro y efectivo, en consultorio o en casa.</p>
+          <a href="#contacto" class="service-link">Agendar cita →</a>
+        </div>
+
+        <div class="service-card" data-category="restauracion" data-animate="fade-up" data-delay="150">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <h3 class="service-title">Endodoncia</h3>
+          <p class="service-desc">Tratamiento de conducto con tecnología avanzada para salvar dientes dañados por
+            infección o trauma, eliminando el dolor y preservando tu diente natural.</p>
+          <a href="#contacto" class="service-link">Agendar cita →</a>
+        </div>
+
+        <div class="service-card" data-category="restauracion" data-animate="fade-up" data-delay="200">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              <path d="M12 8v4" />
+              <path d="M12 16h.01" />
+            </svg>
+          </div>
+          <h3 class="service-title">Implantes Dentales</h3>
+          <p class="service-desc">Reemplazo permanente de dientes perdidos con implantes de titanio de alta calidad.
+            Recupera función y estética con resultados naturales.</p>
+          <a href="#contacto" class="service-link">Agendar cita →</a>
+        </div>
+
+        <div class="service-card" data-category="estetica" data-animate="fade-up" data-delay="250">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+          </div>
+          <h3 class="service-title">Resinas Estéticas</h3>
+          <p class="service-desc">Reparación de caries, fracturas y diastemas con materiales compuestos de color
+            natural. Restaura tu sonrisa en una sola cita.</p>
+          <a href="#contacto" class="service-link">Agendar cita →</a>
+        </div>
+
+        <div class="service-card" data-category="urgencias" data-animate="fade-up" data-delay="300">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+              <line x1="12" y1="9" x2="12" y2="13" />
+              <line x1="12" y1="17" x2="12.01" y2="17" />
+            </svg>
+          </div>
+          <h3 class="service-title">Extracciones</h3>
+          <p class="service-desc">Extracciones dentales seguras y sin dolor, incluyendo muelas del juicio. Técnicas
+            modernas para una recuperación rápida y cómoda.</p>
+          <a href="#contacto" class="service-link">Agendar cita →</a>
+        </div>
+
+        <div class="service-card" data-category="prevencion" data-animate="fade-up" data-delay="350">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              <path d="M9 12l2 2 4-4" />
+            </svg>
+          </div>
+          <h3 class="service-title">Odontología Preventiva</h3>
+          <p class="service-desc">Programas de prevención personalizados: fluoración, selladores de fisuras, educación
+            en higiene bucal y controles periódicos para toda la familia.</p>
+          <a href="#contacto" class="service-link">Agendar cita →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="section section-why">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-content" data-animate="fade-right">
+          <span class="section-tag">¿Por qué elegirnos?</span>
+          <h2 class="section-title">La diferencia está en <span class="text-accent">los detalles</span></h2>
+          <p class="section-subtitle">No solo tratamos dientes, cuidamos personas. Descubre por qué miles de pacientes
+            confían en nosotros para su salud bucal.</p>
+
+          <div class="why-benefits">
+            <div class="benefit-card" data-animate="fade-up" data-delay="0">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+              </div>
+              <div class="benefit-info">
+                <h4>Atención Profesional</h4>
+                <p>Equipo de odontólogos certificados con especializaciones en diversas áreas de la odontología moderna.
+                </p>
+              </div>
+            </div>
+
+            <div class="benefit-card" data-animate="fade-up" data-delay="100">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                  <line x1="8" y1="21" x2="16" y2="21" />
+                  <line x1="12" y1="17" x2="12" y2="21" />
+                </svg>
+              </div>
+              <div class="benefit-info">
+                <h4>Instalaciones Modernas</h4>
+                <p>Consultorios equipados con tecnología de punta para diagnósticos precisos y tratamientos
+                  confortables.</p>
+              </div>
+            </div>
+
+            <div class="benefit-card" data-animate="fade-up" data-delay="200">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path
+                    d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+                </svg>
+              </div>
+              <div class="benefit-info">
+                <h4>Diagnóstico Personalizado</h4>
+                <p>Cada paciente recibe un plan de tratamiento único, adaptado a sus necesidades específicas y
+                  objetivos.</p>
+              </div>
+            </div>
+
+            <div class="benefit-card" data-animate="fade-up" data-delay="300">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+              </div>
+              <div class="benefit-info">
+                <h4>Tratamientos Seguros</h4>
+                <p>Protocolos de esterilización rigurosos y materiales biocompatibles de las mejores marcas del mercado.
+                </p>
+              </div>
+            </div>
+
+            <div class="benefit-card" data-animate="fade-up" data-delay="400">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="3" />
+                  <path
+                    d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z" />
+                </svg>
+              </div>
+              <div class="benefit-info">
+                <h4>Tecnología Dental Avanzada</h4>
+                <p>Escáner intraoral 3D, radiografía digital, diseño CAD/CAM y láser para tratamientos precisos y
+                  mínimamente invasivos.</p>
+              </div>
+            </div>
+
+            <div class="benefit-card" data-animate="fade-up" data-delay="500">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                </svg>
+              </div>
+              <div class="benefit-info">
+                <h4>Atención Amable</h4>
+                <p>Equipo capacitado para brindar una experiencia cálida y libre de ansiedad, especialmente para
+                  pacientes nerviosos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="why-image" data-animate="fade-left">
+          <img src="images/niño.jpg" alt="Dr. César - Odontólogo profesional">
+          <div class="glass-card floating-card">
+            <div class="glass-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+            </div>
+            <div>
+              <span class="glass-title">Certificado</span>
+              <span class="glass-desc">Colegio de Odontólogos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Doctor Section -->
+  <section class="section section-doctor">
+    <div class="container">
+      <div class="doctor-grid">
+        <div class="doctor-image" data-animate="fade-right">
+          <img src="images/doctor.jpg" alt="Dr. César">
+          <div class="doctor-card">
+            <span class="doctor-card-label">Especialista en</span>
+            <span class="doctor-card-value">Estética Dental</span>
+          </div>
+        </div>
+        <div class="doctor-content" data-animate="fade-left">
+          <span class="section-tag">Conoce a tu doctor</span>
+          <h2 class="section-title">Dr. César <span class="text-accent">Rodríguez</span></h2>
+          <span class="doctor-subtitle">Cirujano Dentista | Máster en Odontología Estética</span>
+          <p class="doctor-text">
+            El Dr. César Rodríguez es un odontólogo apasionado por transformar vidas a través de la salud bucal.
+            Con más de 15 años de experiencia y formación continua en México, Estados Unidos y Europa,
+            se ha consolidado como uno de los dentistas más reconocidos de la región.
+          </p>
+          <p class="doctor-text">
+            Su enfoque combina la precisión científica con un arte refinado para crear sonrisas naturales
+            y armónicas. Ha realizado más de 5,000 tratamientos exitosos en ortodoncia, implantes,
+            rehabilitación oral y estética dental.
+          </p>
+
+          <div class="doctor-credentials">
+            <div class="credential">
+              <span class="credential-number">15+</span>
+              <span class="credential-label">Años de práctica</span>
+            </div>
+            <div class="credential">
+              <span class="credential-number">5000+</span>
+              <span class="credential-label">Tratamientos realizados</span>
+            </div>
+            <div class="credential">
+              <span class="credential-number">200+</span>
+              <span class="credential-label">Horas de capacitación anual</span>
+            </div>
+          </div>
+
+          <div class="doctor-specialties">
+            <span class="specialty-tag">Implantología</span>
+            <span class="specialty-tag">Ortodoncia</span>
+            <span class="specialty-tag">Endodoncia</span>
+            <span class="specialty-tag">Estética Dental</span>
+            <span class="specialty-tag">Rehabilitación Oral</span>
+          </div>
+
+          <a href="#contacto" class="btn-primary">Agenda una consulta</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results / Before & After Section -->
+  <section class="section section-results" id="resultados">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Resultados Reales</span>
+        <h2 class="section-title">Transformaciones que <span class="text-accent">hablan</span></h2>
+        <p class="section-subtitle">Cada sonrisa cuenta una historia. Estos son algunos de los resultados que hemos
+          logrado para nuestros pacientes.</p>
+      </div>
+
+      <div class="results-grid">
+        <div class="result-card" data-animate="fade-up" data-delay="0">
+          <div class="result-image">
+            <img src="images/before-after-1.jpg" alt="Blanqueamiento dental antes y después">
+            <div class="result-overlay">
+              <span class="result-tag">Blanqueamiento</span>
+            </div>
+          </div>
+          <div class="result-content">
+            <h4>Caso: Blanqueamiento Dental</h4>
+            <p>Paciente con manchas por consumo de café. Resultado visible en 2 sesiones de blanqueamiento LED.</p>
+            <div class="result-meta">
+              <span class="result-time">2 sesiones</span>
+              <span class="result-rating">★★★★★</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="result-card" data-animate="fade-up" data-delay="100">
+          <div class="result-image">
+            <img src="images/before-after-2.jpg" alt="Ortodoncia antes y después">
+            <div class="result-overlay">
+              <span class="result-tag">Ortodoncia</span>
+            </div>
+          </div>
+          <div class="result-content">
+            <h4>Caso: Alineación Dental</h4>
+            <p>Tratamiento de ortodoncia de 18 meses para corrección de apiñamiento severo y mordida cruzada.</p>
+            <div class="result-meta">
+              <span class="result-time">18 meses</span>
+              <span class="result-rating">★★★★★</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="result-card" data-animate="fade-up" data-delay="200">
+          <div class="result-image">
+            <img src="images/patient-smile.jpg" alt="Rehabilitación dental completa">
+            <div class="result-overlay">
+              <span class="result-tag">Rehabilitación</span>
+            </div>
+          </div>
+          <div class="result-content">
+            <h4>Caso: Sonrisa Completa</h4>
+            <p>Rehabilitación total con implantes y coronas de zirconio. Paciente recuperó función y estética.</p>
+            <div class="result-meta">
+              <span class="result-time">3 meses</span>
+              <span class="result-rating">★★★★★</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section section-testimonials" id="testimonios">
+    <div class="testimonials-bg"></div>
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Testimonios</span>
+        <h2 class="section-title">Lo que dicen nuestros <span class="text-accent">pacientes</span></h2>
+        <p class="section-subtitle">La confianza de nuestros pacientes es nuestro mayor orgullo. Aquí comparten sus
+          experiencias.</p>
+      </div>
+
+      <div class="testimonials-slider" id="testimonialsSlider">
+        <div class="testimonials-track">
+          <div class="testimonial-card active">
+            <div class="testimonial-quote">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+              </svg>
+            </div>
+            <p class="testimonial-text">"Tenía mucho miedo al dentista desde niña, pero en la Clínica del Dr. César me
+              trataron con tanta paciencia y cariño que ahora asisto sin ansiedad. Mi sonrisa nunca se había visto
+              mejor."</p>
+            <div class="testimonial-author">
+              <img src="images/testimonial-1.jpg" alt="María Elena G." class="testimonial-avatar">
+              <div class="testimonial-info">
+                <span class="testimonial-name">María Elena G.</span>
+                <span class="testimonial-service">Blanqueamiento Dental</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+              </svg>
+            </div>
+            <p class="testimonial-text">"El Dr. César es un verdadero profesional. Me hizo un implante dental y el
+              resultado es increíblemente natural. Ni siquiera mi familia nota la diferencia. La tecnología que manejan
+              es de primer nivel."</p>
+            <div class="testimonial-author">
+              <img src="images/testimonial-2.jpg" alt="Carlos Mendoza" class="testimonial-avatar">
+              <div class="testimonial-info">
+                <span class="testimonial-name">Carlos Mendoza</span>
+                <span class="testimonial-service">Implante Dental</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+              </svg>
+            </div>
+            <p class="testimonial-text">"A mis 62 años pensé que era tarde para arreglar mi sonrisa. El Dr. César me
+              demostró que no hay edad para sentirse bien. Me hizo una rehabilitación completa y ahora sonrío en todas
+              las fotos familiares."</p>
+            <div class="testimonial-author">
+              <img src="images/testimonial-3.jpg" alt="Roberto Sánchez" class="testimonial-avatar">
+              <div class="testimonial-info">
+                <span class="testimonial-name">Roberto Sánchez</span>
+                <span class="testimonial-service">Rehabilitación Oral</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials-nav">
+          <button class="testimonial-prev" aria-label="Testimonio anterior">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15 18 9 12 15 6" />
+            </svg>
+          </button>
+          <div class="testimonials-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <button class="testimonial-next" aria-label="Siguiente testimonio">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="section section-process" id="proceso">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Cómo funciona</span>
+        <h2 class="section-title">Tu nueva sonrisa en <span class="text-accent">4 pasos</span></h2>
+        <p class="section-subtitle">Hemos simplificado el proceso para que tu experiencia sea fácil, transparente y sin
+          complicaciones.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-line"></div>
+
+        <div class="process-card" data-animate="fade-up" data-delay="0">
+          <div class="process-number">01</div>
+          <div class="process-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <line x1="16" y1="2" x2="16" y2="6" />
+              <line x1="8" y1="2" x2="8" y2="6" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+            </svg>
+          </div>
+          <h3 class="process-title">Agenda tu Cita</h3>
+          <p class="process-desc">Reserva tu consulta por teléfono, WhatsApp o nuestro formulario web. Ofrecemos
+            horarios flexibles incluyendo sábados.</p>
+        </div>
+
+        <div class="process-card" data-animate="fade-up" data-delay="150">
+          <div class="process-number">02</div>
+          <div class="process-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z" />
+            </svg>
+          </div>
+          <h3 class="process-title">Recibe tu Diagnóstico</h3>
+          <p class="process-desc">Realizamos un estudio completo con radiografías digitales y escáner 3D. Te explicamos
+            tu situación y las opciones de tratamiento.</p>
+        </div>
+
+        <div class="process-card" data-animate="fade-up" data-delay="300">
+          <div class="process-number">03</div>
+          <div class="process-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path
+                d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 11-7.778 7.778 5.5 5.5 0 017.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4" />
+            </svg>
+          </div>
+          <h3 class="process-title">Inicia tu Tratamiento</h3>
+          <p class="process-desc">Ejecutamos tu plan de tratamiento con tecnología avanzada, priorizando tu comodidad y
+            utilizando anestesia efectiva sin dolor.</p>
+        </div>
+
+        <div class="process-card" data-animate="fade-up" data-delay="450">
+          <div class="process-number">04</div>
+          <div class="process-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+            </svg>
+          </div>
+          <h3 class="process-title">Da Seguimiento a tu Sonrisa</h3>
+          <p class="process-desc">Programamos revisiones periódicas para asegurar resultados óptimos. Tu salud bucal es
+            nuestra prioridad a largo plazo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section section-faq" id="faq">
+    <div class="container">
+      <div class="faq-grid">
+        <div class="faq-header" data-animate="fade-right">
+          <span class="section-tag">Preguntas Frecuentes</span>
+          <h2 class="section-title">Resolvemos tus <span class="text-accent">dudas</span></h2>
+          <p class="section-subtitle">Aquí encontrarás respuestas a las preguntas más comunes sobre nuestros servicios y
+            tratamientos dentales.</p>
+          <div class="faq-contact">
+            <span>¿No encuentras tu respuesta?</span>
+            <a href="https://wa.me/5215551234567" target="_blank" class="btn-primary">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.134 1.585 5.94L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+              Escríbenos por WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="faq-list" data-animate="fade-left">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Es doloroso el tratamiento de conducto?</span>
+              <span class="faq-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>No, el tratamiento de conducto (endodoncia) se realiza con anestesia local efectiva, por lo que no
+                sentirás dolor durante el procedimiento. En Clínica Dental Dr. César utilizamos técnicas modernas y
+                equipos de última generación que hacen el tratamiento mucho más cómodo y rápido. Después del
+                procedimiento, puedes experimentar una leve sensibilidad que desaparece en pocos días.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Cuánto dura un implante dental?</span>
+              <span class="faq-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Con los cuidados adecuados, un implante dental puede durar toda la vida. Utilizamos implantes de
+                titanio de grado médico, que es un material biocompatible y extremadamente duradero. El éxito del
+                implante depende de una buena higiene bucal, visitas de control periódicas y evitar hábitos como fumar.
+                Nuestros pacientes tienen una tasa de éxito superior al 98%.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Cuánto tiempo toma la ortodoncia?</span>
+              <span class="faq-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>La duración del tratamiento de ortodoncia varía según la complejidad del caso. En promedio, los
+                tratamientos con brackets duran entre 18 y 24 meses. Con alineadores invisibles, algunos casos pueden
+                completarse en 6 a 12 meses. Durante tu consulta inicial, el Dr. César te dará un estimado preciso
+                basado en tu situación particular.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿El blanqueamiento daña los dientes?</span>
+              <span class="faq-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Cuando se realiza correctamente por un profesional, el blanqueamiento dental es completamente seguro y
+                no daña el esmalte. En nuestra clínica utilizamos concentraciones controladas de peróxido y protegemos
+                tus encías durante el tratamiento. Algunos pacientes pueden experimentar sensibilidad temporal que
+                desaparece en 24-48 horas.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Aceptan seguros médicos?</span>
+              <span class="faq-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Sí, trabajamos con las principales aseguradoras del país. Además, ofrecemos planes de pago flexibles y
+                facilidades para que tu tratamiento dental sea accesible. Contáctanos y con gusto verificamos tu
+                cobertura y te explicamos las opciones de financiamiento disponibles.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Qué debo hacer en caso de urgencia dental?</span>
+              <span class="faq-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Ofrecemos atención de urgencias dentales. Si experimentas dolor intenso, trauma dental, fracturas o
+                infecciones, llámanos inmediatamente al 55-5123-4567 o escríbenos por WhatsApp. En casos de dientes
+                avulsados (sacados de su lugar), guarda el diente en leche o saliva y acude a la clínica lo antes
+                posible.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency Section -->
+  <section class="section section-emergency">
+    <div class="emergency-bg"></div>
+    <div class="container">
+      <div class="emergency-content" data-animate="fade-up">
+        <div class="emergency-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+            <line x1="12" y1="9" x2="12" y2="13" />
+            <line x1="12" y1="17" x2="12.01" y2="17" />
+          </svg>
+          <span>Urgencias Dentales 24/7</span>
+        </div>
+        <h2 class="emergency-title">¿Dolor dental <span class="text-accent">inesperado?</span></h2>
+        <p class="emergency-desc">No esperes más. Atendemos urgencias dentales con prioridad. Nuestro equipo está
+          preparado para aliviar tu dolor y resolver la situación de inmediato.</p>
+        <div class="emergency-actions">
+          <a href="tel:5551234567" class="btn-emergency">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+            </svg>
+            Llamar ahora: 55-5123-4567
+          </a>
+          <a href="https://wa.me/5215551234567" target="_blank" class="btn-whatsapp-emergency">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.134 1.585 5.94L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+            WhatsApp Urgencias
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-contact" id="contacto">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info" data-animate="fade-right">
+          <span class="section-tag">Contacto</span>
+          <h2 class="section-title">Agenda tu <span class="text-accent">cita hoy</span></h2>
+          <p class="section-subtitle">Completa el formulario y nuestro equipo te contactará en menos de 30 minutos para
+            confirmar tu consulta.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">Dirección</span>
+                <span class="contact-value">Av. Insurgentes Sur 1234, Col. Del Valle, Ciudad de México, CDMX
+                  03100</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+                </svg>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">Teléfono</span>
+                <span class="contact-value">55-5123-4567</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">Correo electrónico</span>
+                <span class="contact-value">contacto@clinicadentaldrcesar.com</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">Horarios de atención</span>
+                <span class="contact-value">Lunes a Viernes: 9:00 - 20:00<br>Sábados: 9:00 - 14:00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <span>Síguenos:</span>
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+              </svg></a>
+            <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+              </svg></a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper" data-animate="fade-left">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre completo *</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. María González" required>
+                <span class="form-error">Por favor ingresa tu nombre</span>
+              </div>
+              <div class="form-group">
+                <label for="telefono">Teléfono *</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ej. 55-1234-5678" required>
+                <span class="form-error">Por favor ingresa tu teléfono</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" placeholder="Ej. maria@email.com">
+              <span class="form-error">Por favor ingresa un correo válido</span>
+            </div>
+            <div class="form-group">
+              <label for="servicio">Servicio de interés</label>
+              <select id="servicio" name="servicio">
+                <option value="">Selecciona un servicio</option>
+                <option value="limpieza">Limpieza Dental</option>
+                <option value="ortodoncia">Ortodoncia</option>
+                <option value="blanqueamiento">Blanqueamiento Dental</option>
+                <option value="endodoncia">Endodoncia</option>
+                <option value="implantes">Implantes Dentales</option>
+                <option value="resinas">Resinas Estéticas</option>
+                <option value="extracciones">Extracciones</option>
+                <option value="preventiva">Odontología Preventiva</option>
+                <option value="urgencia">Urgencia Dental</option>
+                <option value="otro">Otro / No estoy seguro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje o comentarios</label>
+              <textarea id="mensaje" name="mensaje" rows="4"
+                placeholder="Cuéntanos sobre tu situación dental o cualquier duda que tengas..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="submitBtn">
+              <span class="btn-text">Solicitar cita</span>
+              <span class="btn-loader"></span>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <div class="success-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                  <polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+              </div>
+              <h4>¡Solicitud enviada!</h4>
+              <p>Gracias por contactarnos. Te llamaremos en menos de 30 minutos para confirmar tu cita.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="section-map">
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.588858262947!2d-99.171097!3d19.386389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDIzJzExLjAiTiA5OcKwMTAnMTYuMCJX!5e0!3m2!1ses!2smx!4v1600000000000!5m2!1ses!2smx"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" title="Ubicación Clínica Dental Dr. César">
+      </iframe>
+      <div class="map-overlay">
+        <div class="map-card">
+          <h4>Visítanos</h4>
+          <p>Av. Insurgentes Sur 1234<br>Col. Del Valle, CDMX</p>
+          <a href="https://maps.google.com/?q=19.386389,-99.171097" target="_blank" class="map-link">Cómo llegar →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/5215551234567" target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.134 1.585 5.94L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
+    <span class="whatsapp-tooltip">¿Necesitas ayuda?</span>
+  </a>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="footer-logo">
+            <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2" />
+              <path d="M14 20C14 16 16 12 20 12C24 12 26 16 26 20C26 24 24 28 20 28C16 28 14 24 14 20Z"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              <path d="M20 16V20L22 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <div class="logo-text">
+              <span class="logo-main">Clínica Dental</span>
+              <span class="logo-sub">Dr. César</span>
+            </div>
+          </a>
+          <p class="footer-desc">Transformando sonrisas y vidas desde 2009. Tu salud bucal en manos de verdaderos
+            profesionales comprometidos con tu bienestar.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+              </svg></a>
+            <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+              </svg></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Limpieza Dental</a></li>
+            <li><a href="#servicios">Ortodoncia</a></li>
+            <li><a href="#servicios">Blanqueamiento</a></li>
+            <li><a href="#servicios">Implantes</a></li>
+            <li><a href="#servicios">Endodoncia</a></li>
+            <li><a href="#servicios">Urgencias</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#proceso">Proceso de Atención</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#faq">Preguntas Frecuentes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <ul>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Av. Insurgentes Sur 1234, Col. Del Valle, CDMX
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+              </svg>
+              55-5123-4567
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              contacto@clinicadentaldrcesar.com
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              Lun-Vie: 9:00 - 20:00<br>Sáb: 9:00 - 14:00
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 Clínica Dental Dr. César. Todos los derechos reservados.</p>
+        <p>Hecho con <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+          </svg> para cuidar tu sonrisa</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
